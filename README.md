@@ -1,3 +1,5 @@
+<img width="398" height="607" alt="image" src="https://github.com/user-attachments/assets/ddebc911-4782-42ae-b357-3dc7550ac296" />
+
 **Throwfinity**
 📖 Project Overview
 
