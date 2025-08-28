@@ -11,6 +11,8 @@ The system allows a user in VR to:
 
 -Interact with a red button in VR, which activates a physical buzzer connected to the Arduino.
 
+-Score points by successfully throwing cubes into a basket inside the VR environment.
+
 This prototype demonstrates the potential of tangible VR interactions that combine physical hardware feedback with virtual immersion.
 
 **----Design----**
@@ -21,11 +23,15 @@ Objectives
 
 -Create a natural, tangible gesture-based interaction (web-shooting metaphor).
 
+-Implement a scoring system to provide user feedback and gamify the experience.
+
 **Interaction Flow**
 
 -Physical → Virtual: User presses a push button → Arduino sends signal → Unity spawns and launches a cube from the hand position in VR.
 
 -Virtual → Physical: User presses a red button inside VR → Unity sends signal to Arduino → buzzer emits a sound in real life.
+
+-Virtual → Virtual: Cubes thrown into a basket increase the score displayed in VR UI.
 
 **Hardware Setup**
 
@@ -68,8 +74,8 @@ Arduino → Unity:
 -Meta Quest Pro (or equivalent) + Meta XR Setup.
 
 **----Steps----**
-Clone repository: git clone https://github.com/<your-username>/Throwfinity.git
-cd Throwfinit
+Clone repository: git clone https://github.com/sakib13/DemoVR_1.git
+cd DemoVR_1
 
 -Launch Unity Hub.
 
