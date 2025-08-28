@@ -13,7 +13,7 @@ The system allows a user in VR to:
 
 This prototype demonstrates the potential of tangible VR interactions that combine physical hardware feedback with virtual immersion.
 
-**🎨 Design**
+**----Design----**
 
 Objectives
 
@@ -37,7 +37,7 @@ Objectives
 
 -Breadboard and jumper wires
 
-**Implementation**
+**----Implementation----**
 
 -Unity Version: 2022.3.47f1
 
@@ -57,7 +57,7 @@ Arduino → Unity:
 
 -Sends "T" when push button pressed.
 
-**Installation**
+**----Installation----**
 
 -Unity 2022.3.47f1 or compatible LTS version.
 
@@ -67,7 +67,7 @@ Arduino → Unity:
 
 -Meta Quest Pro (or equivalent) + Meta XR Setup.
 
-**Steps**
+**----Steps----**
 Clone repository: git clone https://github.com/<your-username>/Throwfinity.git
 cd Throwfinit
 
@@ -83,7 +83,7 @@ cd Throwfinit
 
 -Run the scene with XR simulator or VR headset connected.
 
-**Usage**
+**----Usage----**
 
 -Press the red button → buzzer sounds in real life.
 
@@ -91,7 +91,7 @@ cd Throwfinit
 
 -Press the push button → cube spawns and launches forward from your VR hand, simulating web-shooting.
 
-**Future works**
+**----Future works----**
 
 -Improve throwing mechanics by aligning cube trajectory precisely with palm orientation.
 
